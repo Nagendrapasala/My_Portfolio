@@ -1,0 +1,51 @@
+@media only screen and (max-width: 600px){
+    .skilldiv{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .skilldiv>div>img{
+        width: 50px;
+        height: 30px;
+    }
+    .skilldiv>div>h3{
+        font-size: small;
+    }
+}
+@media only screen and (min-width: 601px){
+    .skilldiv{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .skilldiv>div>img{
+        width: 70px;
+        height: 50px;
+    }
+    .skilldiv>div>h3{
+        font-size: medium;
+    }
+}
+@media only screen and (min-width: 992px){
+    .skilldiv{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .skilldiv>div>img{
+        width: 100px;
+        height: 80px;
+    }
+}
+.skilldiv>div{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.skilldiv>div:hover{
+    transform: translateY(-20%);
+    transition: transform 1s;
+}

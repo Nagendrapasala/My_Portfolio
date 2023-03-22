@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px){
+    .contactme{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    .contactme>div>img{
+        width: 30px;
+    }
+    h2{
+        font-size: large;
+    }
+    p{
+        font-size: small;
+    }
+    a{
+        font-size: small;
+    }
+}
+@media only screen and (min-width: 601px){
+    .contactme{
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    .contactme>div>img{
+        width: 40px;
+    }
+    h2{
+        font-size: large;
+    }
+    p{
+        font-size: small;
+    }
+    a{
+        font-size: small;
+    }
+}
+@media only screen and (min-width: 992px){
+    .contactme{
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    .contactme>div>img{
+        width: 50px;
+    }
+    h2{
+        font-size: larger;
+    }
+    p{
+        font-size: medium;
+    }
+    a{
+        font-size: medium;
+    }
+}
+
+.contactmain{
+    display: grid;
+    align-items: center;
+}

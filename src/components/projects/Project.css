@@ -1,0 +1,111 @@
+@media only screen and (max-width: 600px){
+    .projectmain>div>div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .images{
+        border-radius: 20px;
+        width: 80%;
+    }
+    .disc{
+        font-size: small;
+        font-weight: 600;
+    }
+    
+}
+@media only screen and (min-width: 601px){
+    .projectmain>div>div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .images{
+        border-radius: 20px;
+        width: 90%;
+    }
+    .disc{
+        font-size: medium;
+        font-weight: 400;
+    }
+    
+}
+@media only screen and (min-width: 992px){
+    .projectmain>div>div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .images{
+        border-radius: 20px;
+        width: 90%;
+    }
+    .inner_div>div:nth-child(2)>div{
+        width: 100%;
+    }
+    .disc{
+        font-size: large;
+        font-weight: 600;
+    }
+   
+
+}
+.projectmain{
+    display: grid;
+    gap: 30px;
+}
+
+
+.lang{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.lang>h5{
+    padding: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    background-color: rgb(137, 227, 137);
+    border-radius: 10px;
+}
+
+
+.images:hover{
+    transform:scale(120%,120%);
+    transition: 0.2s;
+}
+.ind_pro{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+.inner_div{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin: 20px;
+    align-items: center;
+}
+.inner_div>div:nth-child(2)
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lang+div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.lang+div>a>button{
+    background-color: rgb(136, 235, 159);
+    border-radius: 10px;
+    padding: 5px;
+}
+.lang+div>a>button:hover{
+    transform: scale(110%,110%);
+    transition: 0.2s;
+}
+.bodycont{
+    text-align: left;
+}
