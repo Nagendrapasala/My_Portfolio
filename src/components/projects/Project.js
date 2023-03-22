@@ -14,7 +14,7 @@ const arr = [
         discription:"We were 5 people took us nearly 5 days to develop from scratch",
         lang:["HTML","css","javascript"],
         links:{
-            website:"https://6412bfa3facaca45f612bbd5--idyllic-sherbet-f029be.netlify.app",
+            website:"https://swiggy-clone2.netlify.app",
             git:"https://github.com/nagendrachoudhary/swiggy",
             post:'https://medium.com/@nagendrapasala1997/my-miserable-project-b6f7e5531dd8'
         }
@@ -26,7 +26,7 @@ const arr = [
         discription:"we were 5 people on team and took us 5 days to complete",
         lang:["HTML","css","javascript","React","reactjs","redux","contextApi","chakraUI","materialUI"],
         links:{
-            website:"https://6412f33dd9ab46118e46042f--idyllic-sherbet-f029be.netlify.app",
+            website:"https://superlative-marigold-7d87fb.netlify.app",
             git:"https://github.com/Nagendrapasala/PolicyBazaar/tree/master/policybazaar",
             post:'https://medium.com/@nagendrapasala1997/policybazaar-a43e19bf9dd5'
         }
@@ -38,7 +38,7 @@ const arr = [
         discription:"we were 5 people on team and completed it in 5 days",
         lang:['HTML','css','javascript','react'],
         links:{
-            website:"https://6411c4c045f91b1cb5984fe4--idyllic-sherbet-f029be.netlify.app",
+            website:"https://bigbasket-clone1.netlify.app",
             git:"https://github.com/spritualrahul/Big_Basket_clone",
             post:'https://medium.com/@nagendrapasala1997/bigbasket-3adb0600cad2'
         }
@@ -50,7 +50,7 @@ const arr = [
         discription:"we were 5 people on team and took us roughly 5 days to complete",
         lang:["HTML","css","javascript","React","reactjs","redux","contextApi","chakraUI","materialUI"],
         links:{
-            website:"https://64119e4f9351de2c02c9f18f--idyllic-sherbet-f029be.netlify.app",
+            website:"https://ajio-clone1.netlify.app",
             git:"https://github.com/Nagendrapasala/www.ajio.com/tree/master/ajio_dublicate",
             post:'https://medium.com/@nagendrapasala1997/ajio-clone-b27de46ce4cb'
         }
